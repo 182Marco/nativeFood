@@ -1,6 +1,6 @@
 import * as N from "react-native";
 import { S } from "./Btn.style";
-import * as Gs from "../../styles";
+import * as Gs from "../../../styles";
 
 const Btn = p => {
   return (

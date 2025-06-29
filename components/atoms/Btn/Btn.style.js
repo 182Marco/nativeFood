@@ -23,7 +23,7 @@ const S = StyleSheet.create({
   },
   btnText: {
     fontWeight: 700,
-    color: Gs.colors.headerBg,
+    color: Gs.colors.btnPrimaryRipple,
   },
   btnBoxStylePressed: {
     opacity: 0.75,
