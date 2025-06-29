@@ -1,5 +1,5 @@
-import { StyleSheet } from 'react-native';
-import * as Gs from '@/styles';
+import { StyleSheet } from "react-native";
+import * as Gs from "../../../styles";
 
 const S = StyleSheet.create({
   margins: {
@@ -9,8 +9,8 @@ const S = StyleSheet.create({
     opacity: 0.75,
   },
   wrapper: {
-    overflow: 'hidden',
-    backgroundColor: Gs.colors.primaryBtn,
+    overflow: "hidden",
+    backgroundColor: Gs.colors.headerBg,
     borderRadius: 50,
   },
   btnBox: {
@@ -18,12 +18,12 @@ const S = StyleSheet.create({
     paddingHorizontal: 16,
   },
   btn: {
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: "center",
+    alignItems: "center",
   },
   btnText: {
     fontWeight: 700,
-    color: Gs.colors.primary,
+    color: Gs.colors.headerBg,
   },
   btnBoxStylePressed: {
     opacity: 0.75,
